@@ -1,0 +1,22 @@
+body{
+  background-color: rgb(0, 255, 255);
+  margin: 0;
+  /*Optional*/
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;/* vh stands for viewport heigth, this example takes up 100% of the height of the viewport window */
+  align-items: center;
+}
+.clock-container{
+  backdrop-filter: blur(5px);
+  width: 100vw; /* takes up 100% of the width of th viewport window */
+  padding: 10px 0;
+}
+.clock{
+  color: white;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.767);
+}
